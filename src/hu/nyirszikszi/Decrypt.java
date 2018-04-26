@@ -2,9 +2,10 @@ package hu.nyirszikszi;
 
 import java.util.Scanner;
 
-public class Decrypt implements Show {
+//public class Decrypt implements Show {
+public class Decrypt extends Crypt {
 	private String encodedText, decodedText;
-	private int key;
+	//private int key;
 	
 	public Decrypt() {
 		System.out.println("\nText:");
