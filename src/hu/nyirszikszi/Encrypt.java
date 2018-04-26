@@ -2,10 +2,8 @@ package hu.nyirszikszi;
 
 import java.util.Scanner;
 
-//public class Encrypt implements Show {
 public class Encrypt extends Crypt {
 	private String plainText, encodedText;
-	//private int key;
 	
 	public Encrypt() {
 		System.out.println("\nText:");
