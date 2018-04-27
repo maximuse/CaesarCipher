@@ -1,4 +1,4 @@
-package hu.nyirszikszi;
+package hu.nyirszikszi.classes;
 
 import java.util.Scanner;
 

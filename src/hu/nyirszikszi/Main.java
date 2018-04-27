@@ -1,5 +1,8 @@
 package hu.nyirszikszi;
 
+import hu.nyirszikszi.classes.Decrypt;
+import hu.nyirszikszi.classes.Encrypt;
+
 import java.util.Scanner;
 
 public class Main {
