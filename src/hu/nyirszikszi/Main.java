@@ -3,13 +3,21 @@ package hu.nyirszikszi;
 import hu.nyirszikszi.classes.Decrypt;
 import hu.nyirszikszi.classes.Encrypt;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-		System.out.println("1 - Encrypt\n2 - Decrypt\n\n");
+		List l = new ArrayList<>();
+		l.add("Encrypt");
+		l.add("Decrypt");
+	
+		for (int i = 0; i < l.size(); i++) {
+			System.out.println((i+1) + " - " + l.get(i));
+		}
 		
-		System.out.print("Item of menu: ");
+		System.out.print("\nItem of menu: ");
     	int n = new Scanner(System.in).nextInt();
   
 		try {
